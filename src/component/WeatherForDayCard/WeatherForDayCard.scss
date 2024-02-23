@@ -1,0 +1,37 @@
+.card-wrapper {
+  display: flex;
+  flex-direction: column;
+  border-radius: 2px;
+  border: 1px solid gainsboro;
+  padding: 8px;
+  cursor: pointer;
+
+  &:hover {
+    background: gainsboro;
+  }
+
+  .date {
+    text-align: center;
+  }
+
+  .temp-wrapper {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+    .temp {
+      font-size: 20px;
+      font-weight: bold;
+    }
+
+    .icon {
+      width: 40px;
+      height: 40px;
+    }
+  }
+}
+
+
+.selected {
+  background: gainsboro;
+}
